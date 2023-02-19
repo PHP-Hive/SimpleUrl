@@ -18,7 +18,9 @@ $converter = new UrlConverter(
 
 
 $code = $converter->encode('https://habr.com/ru/company/reksoft/blog/597049/');
+
 echo $code . PHP_EOL;
 
 $url = $converter->decode($code);
+
 echo $url . PHP_EOL;
