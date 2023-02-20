@@ -5,6 +5,7 @@ use PHPHive\SimpleUrl\FileRepository;
 use PHPHive\SimpleUrl\Helpers\UrlValidator;
 use PHPHive\SimpleUrl\UrlConverter;
 
+
 require_once __DIR__ . '/../vendor/autoload.php';
 
 
@@ -20,6 +21,7 @@ $converter = new UrlConverter(
 $code = $converter->encode('https://habr.com/ru/company/reksoft/blog/597049/');
 
 echo $code . PHP_EOL;
+
 
 $url = $converter->decode($code);
 
