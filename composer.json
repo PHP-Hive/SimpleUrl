@@ -10,7 +10,7 @@
     ],
     "minimum-stability": "stable",
     "type" : "library",
-    "homepage": "https://github.com/PHP-Hive/SimpleUrl.git",
+    "homepage": "https://github.com/PHP-Hive/SimpleUrl",
     "require" : {
         "php": ">=8.1",
         "guzzlehttp/guzzle": "7.*",
