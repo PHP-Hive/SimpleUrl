@@ -1,5 +1,5 @@
 {
-    "name": "php-hive/simple-url",
+    "name": "php-hive/simpleurl",
     "description": "SimpleURL is a lightweight PHP library for converting long URLs to short",
     "license": "MIT",
     "authors": [
